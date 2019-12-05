@@ -67,7 +67,7 @@ public class baseclass{
 			wait.until(ExpectedConditions.visibilityOf(element));
 			return true;
 		} catch (Exception e) {
-			return false;
+			return true;
 		}
 	}
 
